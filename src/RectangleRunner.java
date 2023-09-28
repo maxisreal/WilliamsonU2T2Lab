@@ -9,7 +9,8 @@ public class RectangleRunner {
             rector.setWidth(75);
 
             int lazy = rectory.calculateArea() + rector.calculateArea() + recty.calculateArea();
-            System.out.println("These three plots cover " + lazy + " acres for planting seed.");
+            System.out.println("These three plots cover " + lazy + " acres for planting seed.");;
+
     }
 }
 
