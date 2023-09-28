@@ -14,24 +14,24 @@ public class Point {
         this.x = 0;
         this.y = 0;
     }
-    public void getX() {
+    public int getX() {
         return this.x;
     }
-    public void getY() {
+    public int getY() {
         return this.y;
     }
-    public void setX(int a) {
+    public int setX(int a) {
         x = a;
         return x;
     }
-    public void setY(int b) {
+    public int setY(int b) {
         y = b;
         return y;
     }
-    public void coordinate() {
+    public String coordinate() {
         return "(" + x + ", " + y + ")";
     }
-    public void quadrant() {
+    public String quadrant() {
         if (y > 0 && x > 0) {
             return "Quadrant I";
         }else if(y < 0 && x > 0) {
@@ -40,9 +40,9 @@ public class Point {
             return "Quadrant II";
         }else if (y < 0 && x < 0){
             return "Quadrant III";
-        }else if (y = 0 && x = 0) {
+        }else if (y == 0 && x == 0) {
             return "Origin";
-        }else if (y != 0 && x = 0) {
+        }else if (y != 0 && x == 0) {
             return "On the Y axis";
         }else {
             return "On the X axis";
